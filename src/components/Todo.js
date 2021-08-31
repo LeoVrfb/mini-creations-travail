@@ -43,6 +43,7 @@ function Todo() {
         <div>
             {warningMsg}
             <h1 className='text-center'>{todos.length} To-dos</h1>
+            
             <ul>
                 {myTodos}
             </ul>

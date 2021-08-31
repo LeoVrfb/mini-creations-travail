@@ -10,12 +10,14 @@ import Timertwo from './components/Timers/Timertwo';
 import Todo from './components/Todo';
 import Count from './components/useReducer/Count'
 import FilterableProductTable from './components/ListeProduits/FilterableProductTable'
+import AffichageCompteur from './components/UseEffect/AffichageCompteur';
 
 
 
 
 
-function App({products}) {
+
+function App() {
 
 
   const PRODUCTS = [
@@ -48,6 +50,8 @@ function App({products}) {
     <Calculator/>
     <hr/>
     <FilterableProductTable products={PRODUCTS}/>
+    <hr/>
+    <AffichageCompteur/>
     </div>
     
     

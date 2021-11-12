@@ -1,0 +1,29 @@
+.curseurPerso {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+}
+
+.curseurPerso::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 5px;
+    background: crimson;
+    border-radius: 50%;
+}
+
+.curs {
+    width: 1000px; 
+    height:400px; 
+    
+}
+
+
+

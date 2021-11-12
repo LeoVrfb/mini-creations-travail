@@ -17,7 +17,7 @@ class Timer extends Component {
     }
 
     incremente () {
-        this.setState(function(state, props) {
+        this.setState(() => {
 
             return{ compteur: this.state.compteur + 1}
 

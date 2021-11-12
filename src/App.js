@@ -1,17 +1,23 @@
 
 import './App.css';
-import ClassState from "./components/ClassState";
+import ClassState from "./components/Compteur basique/ClassState";
 import BoilingVerdict from './components/convertisseur/BoilingVerdict';
 import Calculator from './components/convertisseur/Calculator';
 import Formulaire from './components/Formulaires/Formulaire';
-import FunctionState from './components/FunctionState';
+import FunctionState from './components/Compteur basique/FunctionState';
 import Timer from './components/Timers/Timer';
 import Timertwo from './components/Timers/Timertwo';
-import Todo from './components/Todo';
+import Todo from './components/Todo liste/Liste avec fonctions/Todo';
 import Count from './components/useReducer/Count'
 import FilterableProductTable from './components/ListeProduits/FilterableProductTable'
 import AffichageCompteur from './components/UseEffect/AffichageCompteur';
-
+import Base from './components/Modal/Base';
+import Base2 from './components/Modal/Base2';
+import Affichage from './components/Formulaire2/Affichage';
+import Rendu from './components/rendu conditionnel/Rendu'
+import Curseur from './components/Curseur_useRef/curseur';
+import Teste from './Test/teste';
+import TodoClass from './components/Todo liste/Liste avec class/TodoClass';
 
 
 
@@ -40,6 +46,8 @@ function App() {
     <hr/>
     <Todo/>
     <hr/>
+    <TodoClass />
+    <hr />
     <Count/>
     <hr/>
     <Timer/>
@@ -52,6 +60,19 @@ function App() {
     <FilterableProductTable products={PRODUCTS}/>
     <hr/>
     <AffichageCompteur/>
+    <hr/>
+    <Base/>
+    <hr/>
+    <Base2/>
+    <hr/>
+    <Affichage/>
+    <hr/>
+    <Rendu/>
+    <hr/>
+    <Curseur/>
+    <hr/>
+    <Teste/>
+
     </div>
     
     

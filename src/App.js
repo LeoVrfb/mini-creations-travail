@@ -18,6 +18,7 @@ import Rendu from './components/rendu conditionnel/Rendu'
 import Curseur from './components/Curseur_useRef/curseur';
 import Teste from './Test/teste';
 import TodoClass from './components/Todo liste/Liste avec class/TodoClass';
+import ClientsListe from './components/ListeClients/ClientsListe';
 
 
 
@@ -72,7 +73,8 @@ function App() {
     <Curseur/>
     <hr/>
     <Teste/>
-
+    <hr/>
+    <ClientsListe/>
     </div>
     
     
